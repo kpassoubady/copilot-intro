@@ -27,7 +27,7 @@ Simple guide for a 5-person team using Git Flow branching.
 | `git pull origin develop` | Fetch and merge latest `develop` changes into your branch |
 | `git fetch` | Download remote changes without merging |
 | `git merge feature/login` | Merge a branch into your current branch |
-| `git rebase develop` | Reapply your commits on top of latest `develop` (cleaner history) |
+| `git fetch origin && git rebase origin/develop` | Reapply your commits on top of the latest remote `develop` (cleaner history) |
 | `git log --oneline --graph` | View commit history as a compact graph |
 | `git branch -d feature/login` | Delete a branch after it's merged |
 | `git tag v1.0.0` | Mark a specific commit as a release version |
