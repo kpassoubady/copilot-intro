@@ -30,7 +30,7 @@ Simple guide for a 5-person team using Git Flow branching.
 | `git fetch origin && git rebase origin/develop` | Reapply your commits on top of the latest remote `develop` (cleaner history) |
 | `git log --oneline --graph` | View commit history as a compact graph |
 | `git branch -d feature/login` | Delete a branch after it's merged |
-| `git tag v1.0.0` | Mark a specific commit as a release version |
+| `git tag v1.0.0 && git push origin v1.0.0` | Create and publish a release tag |
 | `git stash` | Temporarily save uncommitted changes |
 | `git stash pop` | Restore stashed changes |
 | `git diff` | Show unstaged changes |
